@@ -1,0 +1,181 @@
+@media screen {
+    #banner_logo {
+        width: 10vw;
+    }
+    #banner_logo > img {
+        width: 100%;
+    }
+    #banner {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        display: grid;
+        width: 99vw;
+        padding: 1vw;
+        z-index: 10;
+        grid-template-columns: auto auto;
+    }
+    #banner_links {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-right: 1vw;
+    }
+    #banner_links > * {
+        padding: 1vw;
+        text-decoration: none;
+        color:black;
+        font-family: 'Sofia Sans', sans-serif;
+        font-style: bold;
+        font-size: 1.5vw;
+    }
+    #banner_links > *:hover {
+        color:rgb(77, 77, 77);
+    }
+
+
+
+    #page {
+        padding-top: 5vw;
+        height: 100%;
+        width: 100vw;
+        display: grid;
+        justify-content: center;
+    }
+
+    #presentation {
+        display: grid;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    #presentation > img {
+        margin:auto;
+        width: 10vw;
+        border-radius: 100%;
+    }
+
+    #presentation > #informations {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100vw;
+    }
+    #presentation > #informations > h1 {
+        text-align: center;
+        font-family: 'Sofia Sans', sans-serif;
+        font-size: 1.5vw;
+    }
+    #presentation > #informations > h1:nth-child(1) {
+        justify-self: right;
+        padding-right: 2vw;
+    }
+    #presentation > #informations > h1:nth-child(2) {
+        justify-self: left;
+        padding-left: 2vw;
+    }
+    #presentation > #desc {
+        font-family: 'Sofia Sans', sans-serif;
+        font-size: 1.8vw;
+    }
+
+    #presentation > #desc > p {
+        margin: 0;
+        margin-right: 1vw;
+    }
+    h1 > a,
+    p > a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+
+
+    #projets > * {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-family: 'Sofia Sans', sans-serif;
+    }
+    #projets > * > #texts {
+        width: 49vw;
+    }
+    #projets > * > #texts > p {
+        font-size: 1.8vw;
+    }
+    #projets > * > #texts > #informations {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #projets > * > #texts > #informations > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #projets > * > #texts > #informations > div > *{
+        font-size: 1.5vw;
+        font-weight: normal;
+        vertical-align: middle;
+    }
+
+    #projets > * > img {
+        width: 80%;
+        margin: 1vw;
+        align-self: center;
+        justify-self: center;
+    }
+
+    #projets > * > video {
+        width: 80%;
+        margin: 1vw;
+        align-self: center;
+        justify-self: center;
+    }
+
+    #lang {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        background-color: rgb(158, 158, 158);
+        border-radius: 10%;
+        text-align: center;
+    }
+
+    .dev {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        background-color: rgb(255, 243, 75);
+        border-radius: 10%;
+        text-align: center;
+        height: 100%;
+    }
+
+    .fini {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        background-color: rgb(81, 255, 75);
+        border-radius: 10%;
+        text-align: center;
+        height: 100%;
+    }
+
+    .pause {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        background-color: rgb(255, 162, 75);
+        border-radius: 10%;
+        text-align: center;
+        height: 100%;
+    }
+
+    .privee {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        background-color: rgb(255, 75, 75);
+        border-radius: 10%;
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+    }
+}

@@ -1,6 +1,6 @@
 var cssPath = "style.css";
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|OperaMini/i.test(navigator.userAgent))
-    cssPath = "phone.css";
+    cssPath = "style.css";
 
 var fileref = document.createElement("link");
 
