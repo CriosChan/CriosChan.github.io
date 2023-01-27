@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <script src="./scripts/css_adapt.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
@@ -10,12 +9,13 @@
 <body>
     <div id="banner">
         <div id="banner_logo">
-            <img src="./medias/logo.png">
+            <img id="banner_logo_image" src="./medias/logo_black.png">
         </div>
         <div id="banner_links">
             <a href="#projets">Projets de programmation</a>
             <a href="./ig/index.html">Arbre de liens sociaux</a>
             <a href="#informations">A propos</a>
+            <a id="theme_changer" onclick="theme_switch(true)"></a>
         </div>
     </div>
     <div id="page">
@@ -204,5 +204,6 @@
             </div>
         </div>
     </div>
+    <script src="./scripts/css_adapt.js"></script>
 </body>
 </html>

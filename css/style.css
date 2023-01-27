@@ -16,6 +16,7 @@
         z-index: 10;
         grid-template-columns: auto auto;
     }
+
     #banner_links {
         display: flex;
         align-items: center;
@@ -25,7 +26,6 @@
     #banner_links > * {
         padding: 1vw;
         text-decoration: none;
-        color:black;
         font-family: 'Sofia Sans', sans-serif;
         font-style: bold;
         font-size: 1.5vw;
@@ -34,7 +34,13 @@
         color:rgb(77, 77, 77);
     }
 
-
+    #theme_changer {
+        width: 0.5vw;
+        height: 0.5vw;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
     #page {
         padding-top: 5vw;
@@ -86,11 +92,8 @@
     h1 > a,
     p > a {
         text-decoration: none;
-        color: black;
         font-weight: bold;
     }
-
-
 
     #projets > * {
         display: grid;
@@ -178,4 +181,26 @@
         vertical-align: middle;
         height: 100%;
     }
+
+}
+
+body a,
+body h1,
+body p {
+    color: black
+}
+
+
+body.blacktheme {
+    background-color: #131516;
+}
+
+body.blacktheme > #banner {
+    background-color: #131516;
+}
+
+body.blacktheme a,
+body.blacktheme h1,
+body.blacktheme p {
+    color: white
 }
