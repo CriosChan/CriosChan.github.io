@@ -41,7 +41,7 @@
                 "shell": 91.7,
                 "powershell": 8.3
             },
-            "status": "in_dev",
+            "statut": "in_dev",
             "repo": "private",
             "desc": "Ce projet est privé, pour le moment du moins, il appartient à l'association dans laquelle je travaille. Ce projet consiste en une clé d'installation rapide et efficace de Windows avec des logiciels pré-installés et pré-configurés. En plus de cela par rapport à un simple clone elle permet de changer le nom d'utilisateur de la manière la plus simple possible ; d'utiliser un seul clone pour faire à la fois Legacy et à la fois UEFI, d'installer des logiciels facultatifs à la fin et enfin d'adapter la taille de la partition clonée à la taille du disque. Cela est possible grâce à <a href=\"https://clonezilla.org/\" target=\"_blank\">Clonezilla</a> et <a href=\"https://emmabuntus.org/realisation-de-la-cle-usb-de-reemploi-emmabuntus-sous-ventoy/\" target=\"_blank\">Emmabuntüs</a>"
         },
@@ -53,7 +53,7 @@
                 "html": 35,
                 "css": 5
             },
-            "status": "in_dev",
+            "statut": "in_dev",
             "repo": "inexistante",
             "desc": "Un projet devenu légèrement hors de contrôle. Le but était à la base de faire une plate-forme de rencontre au sein de mon lycée. Cela a beaucoup évolué, passant d'une simple plate-forme de rencontre à un réseau social à part entière. Le but est de vraiment se concentrer sur la vie privée, tout crypter, faire en sorte que l'administration se fasse pas les élèves et non pas par les professeurs, tout en gardant vie privée au centre. Même les administrateurs ne pourraient pas voir les conversations des gens, du moins sans certaines conditions."
         },
@@ -64,7 +64,7 @@
             "languages": {
                 "squirrel": 100
             },
-            "status": "finish",
+            "statut": "finish",
             "repo": "inexistante",
             "desc": "Le but de ce projet était uniquement de tester le logiciel <a href=\"https://github.com/r-ex/rmdlconv\">rmdlconv</a> et <a href=\"https://github.com/r-ex/RePak\">RePak</a> sur la version <a href=\"https://github.com/Mauler125/r5sdk\">moddée</a> du jeu Apex Legends."
         },
@@ -74,7 +74,7 @@
             "languages": {
                 "js": 100
             },
-            "status": "pause",
+            "statut": "pause",
             "repo": "public",
             "repo_link": "https://github.com/CriosChan/NekosDotLifeBD",
             "desc": "Un plugin <a href=\"https://betterdiscord.app/\">BetterDiscord</a>, aujourd'hui infonctionnel, qui servait à envoyer des images depuis <a href=\"https://nekos.life/\">Nekos.Life</a> directement dans Discord."
@@ -85,7 +85,7 @@
             "languages": {
                 "js": 100
             },
-            "status": "pause",
+            "statut": "pause",
             "repo": "public",
             "repo_link": "https://github.com/CriosChan/ImageSender",
             "desc": "Un plugin <a href=\"https://betterdiscord.app/\">BetterDiscord</a>, aujourd'hui infonctionnel, qui servait à envoyer des images depuis des dossiers donnés, par exemples des memes, directement dans Discord. Le but étant de ne plus avoir à les chercher grâce à la recherche interne au plugin."
@@ -96,7 +96,7 @@
             "languages": {
                 "js": 100
             },
-            "status": "finish",
+            "statut": "finish",
             "repo": "public",
             "repo_link": "https://github.com/CriosChan/SignalStickerToImage",
             "desc": "Un petit logiciel codé en utilisant Puppeteer, pour convertir des packs de stickers Signal vers des images, dans l'optique de les utiliser avec ImageSender"
@@ -107,7 +107,7 @@
             "languages": {
                 "js": 100
             },
-            "status": "pause",
+            "statut": "pause",
             "repo": "private",
             "desc": "Un petit logiciel codé en utilisant Puppeteer. Le but était de télécharger des animes depuis le site de VoirAnime. Aujourd'hui infonctionnel par l'augmentation de la sécurité grâce à CloudFlare."
         },
@@ -119,7 +119,7 @@
                 "js": 3,
                 "css": 2
             },
-            "status": "discontinued",
+            "statut": "discontinued",
             "repo": "public",
             "repo_link": "https://github.com/CriosChan/AlpineProjectV2WebVersion",
             "desc": "Un site developpé en une semaine pendant mon année de seconde pour le confinement, permettant de donner des cours, des exercices, des corrections à sa classe. Uniquement géré par les élèves"
@@ -131,7 +131,7 @@
             "languages": {
                 "java": 100
             },
-            "status": "discontinued",
+            "statut": "discontinued",
             "repo": "private",
             "desc": "Un launcher Minecraft, développé pour notre serveur minecraft. N'ayant malheureusement pas abouti."
         }
