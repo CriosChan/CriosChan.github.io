@@ -123,7 +123,7 @@
         justify-content: center;
     }
 
-    #projets > * > #texts > #informations > div > *{
+    #projets > * > #texts > #informations *{
         font-size: 1.5vw;
         font-weight: normal;
         vertical-align: middle;
