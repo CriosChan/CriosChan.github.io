@@ -89,8 +89,7 @@
         margin: 0;
         margin-right: 1vw;
     }
-    h1 > a,
-    p > a {
+    #projets a {
         text-decoration: none;
         font-weight: bold;
     }
@@ -100,6 +99,13 @@
         grid-template-columns: 50% 50%;
         font-family: 'Sofia Sans', sans-serif;
     }
+
+    #projets #svg {
+        width: 1.7vw;
+        height: 1.7vw;
+        align-self: center;
+    }
+
     #projets > * > #texts {
         width: 49vw;
     }
@@ -137,12 +143,47 @@
         justify-self: center;
     }
 
+    #status,
+    #repository {
+        justify-content: center;
+        align-content: center;
+        display: inline-flex;
+        align-self: center;
+    }
+
+    #status > *,
+    #repository > * {
+        padding-left: 0.5vw;
+    }
+
     #lang {
         margin-left: 1vw;
         margin-right: 1vw;
-        background-color: rgb(158, 158, 158);
-        border-radius: 10%;
-        text-align: center;
+        display: block !important;
+    }
+
+    #lang_bar {
+        display: flex;
+        height: 8px;
+        width: 100%;
+        border-radius: 6px;
+        overflow: hidden;
+        outline: 1px solid #0000;
+    }
+
+    #lang_bar > *+* {
+        outline: 2px solid #0000;
+        margin-left: 2px;
+    }
+
+    .octicon {
+        display: inline-block;
+        overflow: visible !important;
+        fill: currentColor;
+    }
+
+    #legend {
+        display: inline-block;
     }
 
     .dev {
@@ -186,7 +227,8 @@
 
 body a,
 body h1,
-body p {
+body p,
+body span {
     color: black
 }
 
@@ -201,6 +243,11 @@ body.blacktheme > #banner {
 
 body.blacktheme a,
 body.blacktheme h1,
-body.blacktheme p {
+body.blacktheme p,
+body.blacktheme span {
     color: white
+}
+
+.progress-item {
+    outline: 2px solid #0000;
 }
