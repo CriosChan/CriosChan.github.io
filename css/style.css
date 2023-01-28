@@ -143,7 +143,7 @@
         justify-self: center;
     }
 
-    #status,
+    #statut,
     #repository {
         justify-content: center;
         align-content: center;
@@ -151,7 +151,7 @@
         align-self: center;
     }
 
-    #status > *,
+    #statut > *,
     #repository > * {
         padding-left: 0.5vw;
     }
