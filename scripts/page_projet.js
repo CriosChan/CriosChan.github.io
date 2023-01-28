@@ -9,22 +9,22 @@ const public = `<svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="ht
 fetch("https://crioschan.github.io/projects.json").then(res => res.json()).then(out => {
     var projects_element = document.getElementById("projets")
     for(const obj in out.projects) {
-        var status = ""
+        var statut = ""
         var repo = ""
         var thumbnail = `<img src="${out.projects[obj].thumbnail}">`
         var repo_url = ` `
-        switch(out.projects[obj].status){
+        switch(out.projects[obj].statut){
             case "in_dev":
-                status = in_dev
+                statut = in_dev
                 break
             case "finish":
-                status = finish
+                statut = finish
                 break
             case "pause":
-                status = pause
+                statut = pause
                 break
             case "discontinued":
-                status = sans_suite
+                statut = sans_suite
                 break
             default:
                 break
@@ -68,7 +68,7 @@ fetch("https://crioschan.github.io/projects.json").then(res => res.json()).then(
                             
                         </div>
                     </div>
-                    <h1 id="status">Status : ${status}</h1>
+                    <h1 id="statut">Statut : ${statut}</h1>
                     <h1 id="repository">Repository : ${repo}</h1>
                 </div> 
                 <p>&emsp;&emsp;${out.projects[obj].desc}${repo_url}</p>
