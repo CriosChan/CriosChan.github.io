@@ -92,6 +92,7 @@
         font-family: 'Sofia Sans', sans-serif;
         font-size: 1.8vw;
         margin: 1vw;
+        margin-left: 0;
     }
 
     #presentation > #desc > p {
@@ -124,6 +125,7 @@
     }
     #projets > * > #texts > p {
         font-size: 1.8vw;
+        margin-right: 1vw;
     }
     #projets > * > #texts > #informations {
         display: grid;
@@ -245,6 +247,9 @@ body span {
     color: black
 }
 
+p {
+    text-align: justify;
+}
 
 body.blacktheme {
     background-color: #131516;
