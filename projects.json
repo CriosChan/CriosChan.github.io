@@ -55,7 +55,7 @@
             },
             "statut": "in_dev",
             "repo": "inexistante",
-            "desc": "Un projet devenu légèrement hors de contrôle. Le but était à la base de faire une plate-forme de rencontre au sein de mon lycée. Cela a beaucoup évolué, passant d'une simple plate-forme de rencontre à un réseau social à part entière. Le but est de vraiment se concentrer sur la vie privée, tout crypter, faire en sorte que l'administration se fasse par les élèves et non pas par les professeurs, tout en gardant vie privée au centre. Même les administrateurs ne pourraient pas voir les conversations des gens, du moins sans certaines conditions."
+            "desc": "Un projet devenu légèrement hors de contrôle. Le but était à la base de faire une plate-forme de rencontre au sein de mon lycée. Cela a beaucoup évolué, passant d'une simple plateforme de rencontre à un réseau social à part entière. Le but est de vraiment se concentrer sur la protection de la vie privée, tout crypter, faire en sorte que l'administration se fasse par les élèves et non pas par les professeurs, tout en gardant comme objectif la protection des données. Même les administrateurs ne peuvent voir les conversations des gens, du moins sans certaines conditions."
         },
         "glados": {
             "type": "video",
