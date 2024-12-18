@@ -1,42 +1,142 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <script src="./phone.js"></script>
+    <meta charset="utf-8" />
     <title>Liens instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/tailwind.css" rel="stylesheet" />
+    <script src="/ig/script.js"></script>
   </head>
-  <body>
-    <div id="wrapper">
-      <div class="top">
-        <img class="profile" src="./profile.jpg">
-        <h1 class="name">CriosChan</h1>
+  <body class="h-screen flex flex-col bg-slate-700">
+      <div class="flex flex-row justify-center p-3 bg-slate-800 rounded-b-lg">
+        <div class="flex flex-row w-fit items-center">
+          <img class="rounded-full aspect-square h-[13vh]" src="/profile/profileColo.jpg" />
+          <h1 class="sofia text-xl p-3 text-white">CriosChan</h1>
+        </div>
       </div>
-      <div class="center">
-          <a class="link" href="https://www.wattpad.com/story/302862017-le-journal-de-rosalia-evergarden">
-            <img class="thumbnail" src="./thumbnail/rosalia.jpg">
-            <h2 class="txt">Le Journal de Rosalia Evergarden</h2>
-          </a>
-          <a class="link" href="https://www.wattpad.com/story/260799064-projet-emy">
-            <img class="thumbnail" src="./thumbnail/emy.jpg">
-            <h2 class="txt">Projet Emy</h2>
-          </a>
-          <a class="link" href="https://www.instagram.com/crios_chan/">
-            <img class="thumbnail" src="./thumbnail/instagram.png">
-            <h2 class="txt">Instagram</h2>
-          </a>
-          <a class="link" href="https://www.deviantart.com/criosdu79">
-            <img class="thumbnail" src="./thumbnail/deviantart.png">
-            <h2 class="txt">Deviantart</h2>
-          </a>
-          <a class="link" href="https://discord.me/crioschan">
-            <img class="thumbnail" src="./thumbnail/discord.png">
-            <h2 class="txt">Discord</h2>
-          </a>
-          <a class="link" href="https://github.com/CriosChan">
-            <img class="thumbnail" src="./thumbnail/github.png">
-            <h2 class="txt">GitHub</h2>
-          </a>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center gap-6 h-full p-3"
+      >
+        <a class="link w-fit h-fit" href="https://www.instagram.com/crioschan/">
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileMain.jpg"
+              />
+              <img class="rounded-full absolute inset-0" src="/ig/thumbnail/instagram.png" />
+            </div>
+            <h2 class="text-center sofia text-lg">Instagram Main</h2>
+          </div>
+        </a>
+        <a
+          class="link w-fit h-fit"
+          href="https://www.instagram.com/crioschancolos/"
+        >
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileColo.jpg"
+              />
+              <img class="rounded-full absolute inset-0" src="/ig/thumbnail/instagram.png" />
+            </div>
+            <h2 class="text-center sofia text-lg">Instagram Colos</h2>
+          </div>
+        </a>
+
+        <a class="link w-fit h-fit" href="https://www.deviantart.com/criosdu79">
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileMain.jpg"
+              />
+              <img
+                class="rounded-full absolute inset-0"
+                src="/ig/thumbnail/deviantart.png"
+              />
+            </div>
+            <h2 class="text-center sofia text-lg">Deviantart Main</h2>
+          </div>
+        </a>
+        <a class="link w-fit h-fit" href="https://www.deviantart.com/crioschan">
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileColo.jpg"
+              />
+              <img
+                class="rounded-full absolute inset-0"
+                src="/ig/thumbnail/deviantart.png"
+              />
+            </div>
+            <h2 class="text-center sofia text-lg">Deviantart Colos</h2>
+          </div>
+        </a>
+
+        <a class="link w-fit h-fit" href="https://discord.me/crioschan">
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileDiscord.png"
+              />
+              <img
+                class="rounded-full absolute inset-0 aspect-square object-fill h-full w-full"
+                src="/ig/thumbnail/discord.png"
+              />
+            </div>
+            <h2 class="text-center sofia text-lg">Discord</h2>
+          </div>
+        </a>
+
+        <a class="link w-fit h-fit" href="https://github.com/CriosChan">
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileGithub.jpg"
+              />
+              <img
+                class="rounded-full absolute inset-0 aspect-square object-fill h-full w-full"
+                src="/ig/thumbnail/github.png"
+              />
+            </div>
+            <h2 class="text-center sofia text-lg">Github</h2>
+          </div>
+        </a>
+
+        <a class="link w-fit h-fit" href="https://x.com/CriosChanColos">
+          <div
+            class="flex flex-col items-center bg-slate-400 rounded-xl w-fit p-3"
+          >
+            <div class="relative w-[20vh] aspect-square">
+              <img
+                class="rounded-full w-full h-full object-fill"
+                src="/profile/profileColo.jpg"
+              />
+              <img
+                class="rounded-full absolute inset-0 aspect-square object-fill h-full w-full"
+                src="/ig/thumbnail/x.png"
+              />
+            </div>
+            <h2 class="text-center sofia text-lg">X/Twitter Colos</h2>
+          </div>
+        </a>
       </div>
-    </div>
   </body>
 </html>
