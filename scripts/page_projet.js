@@ -91,3 +91,22 @@ fetch("/projects.json").then(res => res.json()).then(out => {
         }
     }
 })
+
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+theme_switch(prefersDarkScheme.matches)
+
+function theme_switch(bool){
+    const theme_changer = document.getElementById("theme_changer")
+    if (bool) {
+        document.body.classList.add("blacktheme");
+        document.getElementById("banner_logo_image").setAttribute("src", "./medias/logo_white.png")
+        theme_changer.setAttribute("onclick", "theme_switch(false)")
+        theme_changer.style.backgroundImage = "url(\"./medias/soleil.png\")"
+    } else {
+        document.body.classList.remove("blacktheme");
+        document.getElementById("banner_logo_image").setAttribute("src", "./medias/logo_black.png")
+        theme_changer.setAttribute("onclick", "theme_switch(true)")
+        theme_changer.style.backgroundImage = "url(\"./medias/lune.png\")"
+    }
+}
